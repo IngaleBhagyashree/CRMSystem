@@ -16,27 +16,26 @@ GET /customers: Fetch all customers
 GET /customers/{id}: Fetch customers by ID 
 GET /customers/byname/{firstName}: Fetch customers by name
 GET /customers/byname/{lastName}: Fetch customers by lastfirstname
-	getCustomerList();
-	Customer getCustomerById(int id);
-	String updateCustomer(Customer customer);
-	String deleteCustomerById(int id);
-	String insertMultipleCustomers(List<Customer> customers);
-	getCustomerByFirstName(String firstName );
-	getCustomerByLastName(String lastName);
-	getCustomerByLessThanAge(int age);
-  getCustomerByMoreThanAge(int age);
-	getCoustommerByAge(int age);
-	getCustomerByEmail(String email);
-  getCustomerByMobile(String mobileNumber);
+	getCustomerList
+	Customer getCustomerById
+	getCustomerByFirstName
+	getCustomerByLastName
+	getCustomerByLessThanAge
+        getCustomerByMoreThanAge
+	getCoustommerByAge
+	getCustomerByEmail
+        getCustomerByMobile
 	
 POST /employees: Add a new employee
-  String InsertCustomer(Customer customer);
+       String InsertCustomer
+       String insertMultipleCustomers
 
 PUT /employees/{id}: Update employee by ID 
-  updateFirstName(int id, String firstName);
-  updateLastName(int id,String lastName);
-	updateEmailId(int id, String emailid);
-	updateMobile(int id, String mobile);
-	updateAge(int id, int age);
+       updateFirstName
+       updateLastName
+        updateEmailId
+	updateMobile
+	updateAge
  
 DELETE /employees/{id}: Delete customer by ID
+String deleteCustomerById
